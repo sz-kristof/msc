@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/home/szkristof/Documents/intel-rapl",
+  "command": "/usr/bin/c++   -std=gnu++14 -o CMakeFiles/intel-rapl.dir/intel-rapl.cpp.o -c /home/szkristof/Documents/intel-rapl/intel-rapl.cpp",
+  "file": "/home/szkristof/Documents/intel-rapl/intel-rapl.cpp"
+}
+]
