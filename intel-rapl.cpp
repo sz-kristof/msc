@@ -1148,10 +1148,8 @@ static std::vector<double> rapl_perf(int core,int choice, int ms_time) {
 
 		std::vector<int> x;
 		//x.reserve(MAX);
-		int z = 5;
-		int* k = &z;
 		for(auto it = y.begin(); it != y.end(); ++it) {
-        	x.push_back(*k);
+        	x.push_back(*it);
     	}
 		
 		auto t = std::chrono::system_clock::now() - tp1;
